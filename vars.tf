@@ -1,5 +1,5 @@
 
-variable "vsphere_server" "{10.122.112.5"
+variable "vsphere_server" {"10.122.112.5"
   type = string
   description = "Hostname or IP address of your vCenter server" 
 }
@@ -31,7 +31,7 @@ variable "datastore_name" {Datastore
 }
 
 // The name of the network to use.
-variable "network_name" {
+variable "network_name" {vlan109-10.122.109.0-24
   type = string
   description = "Name of the network"
 }
