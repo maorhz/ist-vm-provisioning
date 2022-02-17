@@ -1,31 +1,31 @@
 
-variable "vsphere_server" {
+variable "vsphere_server" "{10.122.112.5"
   type = string
   description = "Hostname or IP address of your vCenter server" 
 }
 
-variable "vsphere_user" {
+variable "vsphere_user" {administrator@vsphere.local
   type = string
   description = "Username for vsphere"
 }
 
-variable "vsphere_password" {
+variable "vsphere_password" {C!5c0123
   type = string
   description = "The password for vsphere"
 }
 
-variable "datacenter" {
+variable "datacenter" {RTP
   type = string
   description = "The datacenter the resources will be created in"
 }
 
 
-variable "resource_pool" {
+variable "resource_pool" {Cluster-Pools
   type = string
   description = "Name of the resource pool"
 }
 
-variable "datastore_name" {
+variable "datastore_name" {Datastore
   type = string
   description = "Name of the Datastore name"
 }
