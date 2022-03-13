@@ -19,7 +19,6 @@ variable "datacenter" {RTP
   description = "The datacenter the resources will be created in"
 }
 
-
 variable "resource_pool" {Cluster-Pools
   type = string
   description = "Name of the resource pool"
